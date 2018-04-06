@@ -10,6 +10,14 @@ body {
     padding: 0.5em;
 }
 
+input[type="submit"]{
+    margin-top: 20px;
+}
+
+#labels{
+    padding-left: 40px;
+}
+
 hr {
     width: 90%;
     border: 1px solid #D8C858;
