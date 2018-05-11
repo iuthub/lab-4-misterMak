@@ -3,7 +3,7 @@
 ### Student Details:
 
 - **Student ID**: u1610142
-- **Student Name**: Mirkamol Khamidov
+- **Student Name**: MIRKAMOL KHAMIDOV
 - **Section Number**: 001
 
 
