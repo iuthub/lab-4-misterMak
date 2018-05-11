@@ -15,42 +15,41 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-
 		<form action="sucker.php" method="post">
-			<dl>
+			<dl>			
 				<dt>Name</dt>
 				<dd>
-					<input type="text" name="name"  required="">
+					<input type="text" name="name" id="name" placeholder="Enter Your Name" />
 				</dd>
 				
 				<dt>Section</dt>
 				<dd>
-					<select name="section" required="">
-						<optgroup label="(Select a section)">
-							<option value="MA">MA</option>
-							<option value="MB">MB</option>
-							<option value="MC">MC</option>
-							<option value="MD">MD</option>
-							<option value="ME">ME</option>
-							<option value="MF">MF</option>
-							<option value="MG">MG</option>
-							<option value="MH">MH</option>
-						</optgroup>
+					<select name="section" id="section">
+						<option value="MA">MA</option>
+						<option value="MB">MB</option>
+						<option value="MC">MC</option>
+						<option value="MD">MD</option>
+						<option value="ME">ME</option>
+						<option value="MF">MF</option>
+						<option value="MG">MG</option>
+						<option value="MH">MH</option>
 					</select>
 				</dd>
 				
 				<dt>Credit Card</dt>
 				<dd>
-					<input type="text" name="creditCard" required="">
+					<input type="text" name="credit_card" id="credit_card" placeholder="Enter Your Card Number" />
+					<br>
+					<input type="radio" name="card_type" id="credit_type" value="visa"/>Visa
+					<input type="radio" name="card_type" id="credit_type" value="master_card"/>Master Card
 				</dd>
-
-				<div id="labels">	
-					<label><input type="radio" name="type" value="visa" checked="">Visa</label>
-					<label><input type="radio" name="type" value="master">Master Card</label>
-				</div>
-
-				<input type="submit" name="submit" value="I am a giant sucker.">
 			</dl>
+
+			<div>
+				<input type="submit" value="I am a giant sucker." />
+			</div>
+			
 		</form>
+		
 	</body>
 </html>
